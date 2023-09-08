@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>
+        Lampada JS
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Utilize o interruptor para acender a lampada</h2>
+        <h3>CUIDADO! NAO TOQUE NA LAMPADA!</h3>
+        <div>
+            <img src="/assets/lampada-apagada.png" alt="" id="lampada" onclick="mudaLampada(3)">
+
+        </div>
+        <div>
+            <img src="/assets/switch-off.png" alt="" id="interruptor" onclick="mudaLampada(2)">
+        </div>
+        <div id="trocalampada" onclick="trocaLampada()">
+            <h3>Trocar a lampada</h3>
+        </div>
+    </div>
+</body>
+
+</html>
